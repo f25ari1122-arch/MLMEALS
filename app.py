@@ -1,15 +1,8 @@
 
 import streamlit as st
-import sklearn
-import pandas as pd
-import numpy as np
 
-st.title("SmartBite Diagnostic Test")
+st.set_page_config(page_title="SmartBite Test")
 
-st.success("Streamlit is running!")
-
-st.write("Scikit-learn:", sklearn.__version__)
-st.write("Pandas:", pd.__version__)
-st.write("NumPy:", np.__version__)
-
-st.write("Testing application...")
+st.title("SmartBite")
+st.success("Streamlit is working!")
+st.write("The application has started successfully.")
